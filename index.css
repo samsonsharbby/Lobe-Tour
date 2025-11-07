@@ -38,6 +38,7 @@
     width: 90px;
     height: 80px;
     border: none;
+    outline: none;
 }
 .main-top-center{
     width: 40%;
@@ -163,9 +164,42 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 .download2{
     padding: 0.5rem 2rem;
+}
+.main-footer{
+    width: 70%;
+    height: auto;
+    padding: 1rem;
+    border-top: solid #767676;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    column-gap: 3rem;
+}
+.rights-reserved,
+.about{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    row-gap: 1rem;
+    padding: 0.3rem;
+}
+.rights-reserved img{
+    width: 90px;
+    height: 80px;
+    margin-bottom: 0.5rem;
+}
+.rights-reserved p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #333;
 }
 
 
